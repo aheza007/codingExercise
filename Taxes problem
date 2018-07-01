@@ -20,13 +20,19 @@ We will test your submission on a device/emulator with the API matching the minS
 Note that you can use any other front end technology like (HTML&CSS, Angular Js, React...) to capture user inputs and 
 invoke the java program to calculate taxes and then display the receipt/results back to the user. 
 
-THINGs I EXPECT, YOU HAVE TO DO:
+THINGs I EXPECT, YOU WILL DO
+-----------------------------
 1. Create a github project
 2. Checkin your SOLUTION for this problem
 3. When the solution is ready email me the link to your github project. 
 4. You can ask me hints or any other question you think can help you to progress. 
 
+DEALINE
+-------
+you have 5 days to complete this exercise.  
 
+SAMPLE INPUT & OUTPUT to the program
+------------------------------------
 Input 1: 1 book at 12.49 1 music CD at 14.99 1 chocolate bar at 0.85
 Output 1: 1 book : 12.49 1 music CD: 16.49 1 chocolate bar: 0.85 Sales Taxes: 1.50 Total: 29.83
 
