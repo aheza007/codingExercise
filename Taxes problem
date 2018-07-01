@@ -1,0 +1,28 @@
+Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical products that are exempt.
+Import duty is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions.
+The receipt lists the name of all the items, each with its price, including tax; the total cost of the items; 
+and the total amounts of tax paid. Tax is applied to each item individually—for a sales tax of n% the item should be listed 
+on the receipt with a price of np/100 rounded up to the nearest 5¢ (e.g. a $1.01 item taxed at 5% has 10¢ in tax for a receipt 
+price of $1.10). For a quantity greater than one compute the total cost of items and apply the rounding to the line item total.
+In other words, for a quantity q, round the result of qnp/100 to the nearest 5¢. Write an application that prints out the receipt 
+details for these shopping baskets...
+
+Java: Please use current java technology to solve the problem and return a production ready deployable bundle of the solution 
+– this means we should be able to run the samples presented and get the output very easily. 
+Please include any tests as well as a README file containing any assumptions that you’ve made along the way.
+
+Android: Please use current technology to solve the problem and return an Android application 
+– this means we should be able to run the samples presented and get the output very easily. 
+Please use the ActionBar and at least one fragment in your solution. 
+Please include any tests as well as a README file containing any assumptions that you’ve made along the way. 
+Finally, please provide command line build instructions for your application. 
+We will test your submission on a device/emulator with the API matching the minSdk of your submission.
+
+Input 1: 1 book at 12.49 1 music CD at 14.99 1 chocolate bar at 0.85
+Output 1: 1 book : 12.49 1 music CD: 16.49 1 chocolate bar: 0.85 Sales Taxes: 1.50 Total: 29.83
+
+Input 2: 1 imported box of chocolates at 10.00 2 imported bottles of perfume at 47.25
+Output 2: 1 imported box of chocolates: 10.50 2 imported bottles of perfume: 108.70 Sales Taxes: 14.70 Total: 119.20
+
+Input 3: 1 imported bottle of perfume at 27.99 1 bottle of perfume at 18.99 1 packet of headache pills at 9.75 1 box of imported chocolates at 11.25
+Output 3: 1 imported bottle of perfume: 32.19 1 bottle of perfume: 20.89 1 packet of headache pills: 9.75 1 imported box of chocolates: 11.85 Sales Taxes: 6.70 Total: 74.68
