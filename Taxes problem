@@ -11,12 +11,21 @@ Java: Please use current java technology to solve the problem and return a produ
 – this means we should be able to run the samples presented and get the output very easily. 
 Please include any tests as well as a README file containing any assumptions that you’ve made along the way.
 
-Android: Please use current technology to solve the problem and return an Android application 
-– this means we should be able to run the samples presented and get the output very easily. 
-Please use the ActionBar and at least one fragment in your solution. 
-Please include any tests as well as a README file containing any assumptions that you’ve made along the way. 
+Android: Please use current technology to solve the problem and return an Android application – this means we 
+should be able to run the samples presented and get the output very easily. Please use the ToolBar and at least one fragment 
+in your solution. Please include any tests as well as a README file containing any assumptions that you’ve made along the way. 
 Finally, please provide command line build instructions for your application. 
 We will test your submission on a device/emulator with the API matching the minSdk of your submission.
+
+Note that you can use any other front end technology like (HTML&CSS, Angular Js, React...) to capture user inputs and 
+invoke the java program to calculate taxes and then display the receipt/results back to the user. 
+
+THINGs I EXPECT, YOU HAVE TO DO:
+1. Create a github project
+2. Checkin your SOLUTION for this problem
+3. When the solution is ready email me the link to your github project. 
+4. You can ask me hints or any other question you think can help you to progress. 
+
 
 Input 1: 1 book at 12.49 1 music CD at 14.99 1 chocolate bar at 0.85
 Output 1: 1 book : 12.49 1 music CD: 16.49 1 chocolate bar: 0.85 Sales Taxes: 1.50 Total: 29.83
